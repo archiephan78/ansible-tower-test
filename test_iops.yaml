@@ -6,8 +6,9 @@
         msg: "Hello World!"
     - name: Download benchmark vm file
       get_url:
-        url: https://raw.githubusercontent.com/nhanhoadocs/scripts/master/Utilities/bench_vm.sh
+        url: https://raw.githubusercontent.com/archiephan78/ansible-tower-test/master/bench_vm.sh
         dest: /root/bench_vm.sh
         mode: '0777'
     - name: Execute the script
       command: sudo /root/bench_vm.sh
+##cpoy in HCD
